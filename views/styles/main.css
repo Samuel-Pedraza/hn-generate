@@ -1,0 +1,113 @@
+/* global styles */
+
+.hn-wrapper {
+    width: 100%;
+    background-color: rgb(255,255,255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hn-main-container {
+    max-width: 1500px;
+    background-color: rgb(246,246,239);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+/* header */
+
+.hn-orange-header {
+    background-color: rgb(255, 102, 0);
+    height: 35px;
+}
+
+.hn-orange-header ul li {
+    display: inline-flex;
+    margin: 5px;
+    font-size: 14px;
+}
+
+.hn-orange-header ul.hn-sort-posts li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.hn-orange-header .hn-logo {
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.hn-orange-header .hn-name {
+    font-weight: 900;
+}
+
+.hn-orange-header .hn-item {
+    border-right: 1px solid rgb(0, 0, 0);
+    padding-right: 15px;
+}
+
+/* main container */
+
+.posts-container .post-submission {
+    padding-left: 5px;;
+    padding-top: 15px;
+    font-size: 14px;
+}
+
+.posts-container .post-submission .link-number {
+    font-size: 12px;
+    color: rgb(130, 130, 130);
+}
+
+.posts-container .post-submission .submission-link {
+    font-size: 12px;
+    color: rgb(130, 130, 130);
+}
+
+.posts-container .post-submission .submission-details {
+    padding-left: 35px;
+    color: rgb(130, 130, 130);
+    margin-top: 3px;
+}
+
+/* footer */
+.hn-footer {
+    margin-top: 25px;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    border-top: 3px solid rgb(255, 102, 0);
+}
+
+.hn-footer .hn-footer-details {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hn-footer ul li {
+    display: inline-flex;
+    margin: 5px;
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.hn-footer ul li a {
+    color:  rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.hn-footer ul li a:visited {
+    color:  rgb(130, 130, 130);
+}
+
+.hn-footer-search {
+    padding-top: 10px;
+    padding-bottom: 35px;
+    text-align: center;
+    width: 25%;
+    margin: 0 auto;
+}
+
+.hn-footer-search label {
+    font-size: 14px;
+    color: rgb(130, 130, 130);
+}
